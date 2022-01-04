@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            tools:layout_marginLeft="2dp"
+            tools:layout_marginRight="2dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/bRet"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="60dp"
+                android:hint="@string/bRet"
+                android:text=""
+                android:textSize="24sp"
+                tools:layout_marginLeft="2dp"
+                tools:layout_marginRight="2dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            tools:layout_marginLeft="2dp"
+            tools:layout_marginRight="2dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/hRet"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="@string/hRet"
+                android:text=""
+                android:textSize="24sp"
+                tools:layout_marginLeft="2dp"
+                tools:layout_marginRight="2dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/res"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/res"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            tools:layout_marginLeft="2dp"
+            tools:layout_marginRight="2dp"
+            tools:layout_marginTop="90dp" />
+
+        <Button
+            android:id="@+id/btn_calcular"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/btn_calcular"
+            tools:layout_marginTop="150dp"
+            tools:layout_marginLeft="2dp"
+            tools:layout_marginRight="2dp"/>
+
+        <Button
+            android:id="@+id/btn_limpar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/btn_limpar"
+            tools:layout_marginLeft="2dp"
+            tools:layout_marginRight="2dp"/>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculo Área Retângulo</string>
+    <string name="bRet">Base do Retângulo</string>
+    <string name="hRet">Altura do Retângulo</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="btn_limpar">Limpar</string>
+    <string name="res">Resultado</string>
+</resources>
